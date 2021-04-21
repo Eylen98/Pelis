@@ -1,0 +1,56 @@
+
+.menu{
+    height: 100vh;
+    padding: 0px;
+    -webkit-box-shadow: 6px 0px 18px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 0px 18px -11px rgba(0,0,0,0.75);
+    box-shadow: 6px 0px 18px -11px rgba(0,0,0,0.75);
+}
+.bg-orange{
+    background: #f10f0f;
+}
+
+.menu a{
+    border-bottom: 1px solid rgb(206, 206, 206);
+    display: block;
+    padding: 10px 30px;
+    color:black;
+    width: 100%;
+    font-family: roboto;
+  
+}
+.menu a:hover{
+    background:#f10f0f;
+    
+    color:white;
+    text-decoration: none;
+}
+.menu .collapse a{
+   
+  border-bottom: 1px solid rgb(206, 206, 206);
+}
+.bg-green{
+    background: #00A42F;
+}
+.tamano{
+    padding: 50px 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.bg-red{
+    background:#f10f0f !important;
+}
+
+.img{
+    height: 100vh;
+    background-image: url("../img/cinema.jpg");
+    font-family: 'Roboto', sans-serif !important;
+ 
+
+}
+
+.bg-blue-oscuro{
+    background:  #2e4053 ;
+    border: #2e4053;
+}
